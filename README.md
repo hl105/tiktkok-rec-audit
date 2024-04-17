@@ -3,10 +3,10 @@ Auditing TikTok's recommended videos section
 run code with: <br>
 
 ```
-pytest -s explore_scroll.py  --html="report_test.html" --rs --var1="Society" --uc
+pytest -s explore_scroll.py  --html="report_test.html" --rs --uc --var1="Beauty"
 ```
---var1 options: Society, Singing, Sports, Food, Beauty <br>
+--var1 options: Society, Sports, Food, Beauty <br>
 
-
-To do: <br>
-1. create list of videos, the code current just collects data for one cat link
+### Troubleshooting
+if you close your laptop / run into a failure / exit the terminal: close the terminal, open a new terminal, go to links.csv and delete the links that were already processed, and run the code again <br>
+When the first round of opening a link -> explore page works, it should go smoothly from there <br>
