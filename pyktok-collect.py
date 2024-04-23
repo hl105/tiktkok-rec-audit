@@ -21,9 +21,9 @@ def collect_metadata(inputFile, outputFile):
     
     pyk.specify_browser('chrome')
     pyk.save_tiktok_multi_urls(urls,  # list of URLs to visit
-                               True, # don't save videos   
+                               False, # don't save videos   
                 		       outputFile, # csv file
-                		       5) # max time sleep
+                		       1) # max time sleep
     
 if __name__ == "__main__":
     _, fin, fout = sys.argv
